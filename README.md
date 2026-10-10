@@ -2,7 +2,7 @@
 
 A U-Net implemented in TensorFlow-Keras that segments field images into **background, weed and wheat**, with experiments on network depth, loss function and data augmentation.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neelamkhan3/YOUR-REPO-NAME/blob/main/YOUR-NOTEBOOK-NAME.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rMhQYxPKD8qYsgjrRGO4-hmpGs7hIx7W?usp=drive_link)
 
 ## 📋 Table of Contents
 - [Overview](#-overview)
@@ -12,7 +12,6 @@ A U-Net implemented in TensorFlow-Keras that segments field images into **backgr
 - [Model Architecture](#-model-architecture)
 - [Installation and Usage](#-installation-and-usage)
 - [Results](#-results)
-- [Figures](#-figures)
 - [Project Structure](#-project-structure)
 - [Troubleshooting](#-troubleshooting)
 - [Future Improvements](#-future-improvements)
