@@ -52,7 +52,7 @@ split and 20 epochs.
 - Images resized to 256x256, which changes the aspect ratio.
 
 ## Files
-- `unet_three_class_sementic_segmentation.ipynb`: full notebook
+- `UNet_Three_Class_Sementic_Segmentation.ipynb`: full notebook
 - `figures/`: training curves, example predictions, confusion matrix
 
 ## How to run
