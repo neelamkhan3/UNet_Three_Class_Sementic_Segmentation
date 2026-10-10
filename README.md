@@ -52,9 +52,7 @@ split and 20 epochs.
 - Images resized to 256x256, which changes the aspect ratio.
 
 ## Files
-- `unet_three_class_segmentation.ipynb`: full notebook
-- `unet_experiment_results.csv`, `training_curve_summary.csv`,
-  `confusion_matrix.csv`, `example_prediction_dice.csv`: result tables
+- `unet_three_class_sementic_segmentation.ipynb`: full notebook
 - `figures/`: training curves, example predictions, confusion matrix
 
 ## How to run
