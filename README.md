@@ -4,13 +4,16 @@ Implementation of a U-Net in TensorFlow-Keras (Google Colab) that segments
 field images into three classes: background, weed and wheat.
 Dice scores are computed with `sklearn.metrics.f1_score`.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/YOUR-REPO/blob/main/unet_three_class_segmentation.ipynb)
+Open In Colab: https://colab.research.google.com/drive/1rMhQYxPKD8qYsgjrRGO4-hmpGs7hIx7W?usp=drive_link
 
-## Dataset
+- ## Dataset
 - 936 RGB images (480x352) with single-channel masks (0 = background, 1 = weed, 2 = wheat)
 - Pixel share: background 65.87%, weed 14.43%, wheat 19.71%
-- Resized to 256x256; random 80/20 train/test split (`random_state=42`)
-- The dataset is not included in this repository; the notebook downloads it automatically.
+- The dataset is **not stored in this repository**. The notebook downloads it
+  automatically from Google Drive using `gdown`
+- Open the Drive link:  https://drive.google.com/file/d/1t5Z4ekEWc1jmblaEoh88mtQgMQAhrQjm/view?usp=d
+    rive_link
+- Dataset provided as part of the course assignment.
 
 ## What was done
 1. **Sanity check:** a standard U-Net (4 levels, 64 filters) overfits 4 images
